@@ -1,0 +1,97 @@
+body {
+    background-color: #f1f1f1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    color: #333;
+}
+
+.jumbotron {
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 40px; 
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.img-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #dc3545;
+    color: white;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+    text-decoration: underline;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #dc3545;
+    color: white;
+}
+
+.bg-moto {
+    background-image: url('imgs/moto-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: square;
+    line-height: 30px;
+}
+
+a {
+    color:#0ba7c6;
+    text-decoration: none;
+    padding: 20px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;    
+}

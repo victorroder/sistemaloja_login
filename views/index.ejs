@@ -1,0 +1,24 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/navbar.ejs') %>
+
+<% if (messages.success) { %>
+    <div class="alert alert-success">
+        <%= messages.success %>
+    </div>
+<% } %>
+
+<div class="container my-4">
+    <div class="jumbotron text-center" style="background-image: url('imgs/moto-background.jpg'); background-size: cover; background-position: center; color: white;">
+        <h1 class="display-4"><strong>Bem-vindo(a) ao painel administrativo Nossa Loja de Motos!</strong></h1>
+        <p class="lead">Aqui você pode gerenciar clientes, produtos e pedidos com facilidade.</p>
+        <hr class="my-4">
+      
+        <p class="lead">
+            <a class="btn btn-danger btn-lg" href="/pedidos" role="button">Verificar Pedidos</a>
+        </p>
+        
+    </div>
+    
+    </div>
+    
+<%- include ('partials/footer.ejs') %>

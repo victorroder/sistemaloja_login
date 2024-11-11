@@ -1,0 +1,43 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #B22222; font-family: 'Roboto', sans-serif; padding: 15px;">
+    <a class="navbar-brand" href="/" alt="Ícone Moto" width="20" class="d-inline-block align-top">
+        MotoRoder
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="/clientes">Clientes</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="/produtos">Produtos</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="/pedidos">Pedidos</a>
+            </li>
+        </ul>
+
+        
+<span style="margin-left: auto;">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <% if (typeof loggedOut === "undefined") { %>
+                <a class="nav-link" href="/logout">Fazer logout</a>
+            <% } else { %>
+                <a class="nav-link" href="/login">Fazer login</a>
+            <% } %>
+        </li>
+    </ul>
+</span>
+    </div>
+</nav>
+
+
+
+
+
+
